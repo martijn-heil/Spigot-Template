@@ -9,16 +9,22 @@ You can configure Intellij IDEA path variables at `File > Settings > Appearance 
 4. You should define a profile in your maven `settings.xml` like this:
 
 ```
-<profile>
-    <id>spigotdev</id>
-    <properties>
-        <spigot-devserver-root>/path/to/spigot/devserver/root</spigot-devserver-root>
-    </properties>
-</profile>
+<profiles>
+    ...
+    <profile>
+        <id>spigotdev</id>
+        <properties>
+            <spigot-devserver-root>/path/to/spigot/devserver/root</spigot-devserver-root>
+        </properties>
+    </profile>
+    ...
+</profiles>
 ```
 And make sure it is active,
 ```
 <activeProfiles>
+    ...
     <activeProfile>spigotdev</activeProfile>
+    ...
 </activeProfiles>
 ```
