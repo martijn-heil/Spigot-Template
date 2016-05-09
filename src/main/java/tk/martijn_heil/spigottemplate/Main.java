@@ -1,7 +1,7 @@
 package tk.martijn_heil.spigottemplate;
 
 
-import me.ninjoh.nincore.api.Core;
+import tk.martijn_heil.nincore.api.Core;
 
 public class Main extends Core
 {

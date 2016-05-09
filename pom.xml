@@ -12,8 +12,12 @@
 
         <!-- NinCore API Repository -->
         <repository>
-            <id>nincore-api-repo</id>
-            <url>https://raw.github.com/martijn-heil/NinCore-API/mvn-repo/</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+
+            <snapshots>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
         </repository>
 
         <!-- Spigot Repository -->
@@ -28,9 +32,9 @@
 
         <!-- NinCore API -->
         <dependency>
-            <groupId>me.ninjoh</groupId>
-            <artifactId>nincore-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>tk.martijn-heil</groupId>
+            <artifactId>NinCore-API</artifactId>
+            <version>-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
