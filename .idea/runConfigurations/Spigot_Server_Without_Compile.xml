@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Spigot Server Without Compile" type="JarApplication" factoryName="JAR Application">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <option name="JAR_PATH" value="$SPIGOT_DEVSERVER$/spigot.jar" />
+    <option name="VM_PARAMETERS" value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005 -Xms256M -Xmx256M" />
+    <option name="WORKING_DIRECTORY" value="$SPIGOT_DEVSERVER$" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+    <envs />
+    <method />
+  </configuration>
+</component>

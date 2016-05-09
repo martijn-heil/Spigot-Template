@@ -1,0 +1,28 @@
+package tk.martijn_heil.spigottemplate;
+
+
+import me.ninjoh.nincore.api.Core;
+
+public class Main extends Core
+{
+
+    @Override
+    public void onLoadInner()
+    {
+
+    }
+
+
+    @Override
+    public void onEnableInner()
+    {
+
+    }
+
+
+    @Override
+    public void onDisableInner()
+    {
+
+    }
+}

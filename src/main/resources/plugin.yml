@@ -1,0 +1,5 @@
+name: Spigot-Template
+version: ${project.version}
+author: Ninjoh
+
+main: tk.martijn_heil.spigottemplate.Main
