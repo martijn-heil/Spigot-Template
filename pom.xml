@@ -12,6 +12,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <name>Spigot-Template</name>
+
     <repositories>
 
         <!-- NinCore API Repository -->
